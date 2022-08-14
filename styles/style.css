@@ -7,7 +7,7 @@
 }
 .hero{
     text-align: center;
-    padding: 160px 80px;
+    padding: 100px 80px;
     background: var(--background-color);
 }
 .hero p {
@@ -17,6 +17,11 @@
     margin: 0;
     color: var(--main-text-color);
 
+}
+p{
+    font-size: 26px;
+    line-height: 30px;
+    font-family: var(--main-font-family);
 }
 h2,
 h3,
@@ -44,4 +49,33 @@ color: white;
 .btn-branding:hover {
     cursor: pointer;
     border-color: var(--hightlight-color);
+    color:var(--hightlight-color)
+}
+.btn-branding-learnmore{
+    border-color: var(--hightlight-color);
+border-radius: 35px;
+border-width: 3px;
+padding: 10px 30px;
+font-size: 20px;
+color:var(--hightlight-color);
+}
+.decription h1 {
+    font-size: 64px;
+  }
+.decription {
+    padding: 100px 60px;
+}
+@media (max-width: 960px) {
+    h1 {
+      font-size: 60px;
+      text-align: center;
     }
+        .hero {
+        padding: 70px 20px;
+        }
+        .decription {
+            padding: 0;
+        text-align: center;}
+        .decription h1{
+            font-size: 45px;}
+}
