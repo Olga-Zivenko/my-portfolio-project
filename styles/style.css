@@ -1,0 +1,47 @@
+:root{
+    --background-color:#f9f7fe;
+    --main-font-family:'Poppins', sans-serif;
+    --header-font-family:'Kaushan Script', cursive;
+    --hightlight-color:#9DCBEC;
+    --main-text-color:#272142;
+}
+.hero{
+    text-align: center;
+    padding: 160px 80px;
+    background: var(--background-color);
+}
+.hero p {
+    font-family: var(--main-font-family);
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    color: var(--main-text-color);
+
+}
+h2,
+h3,
+h4 {
+font-family: var(--main-font-family);
+font-weight: normal;
+color: var(--main-text-color);
+}
+h1 {
+    font-family: var(--header-font-family);
+    font-size: 96px;
+    font-weight: bold;
+    color: var(--hightlight-color);}
+h2{
+    font-size: 24px;
+}
+.btn-branding {
+border-color: var(--hightlight-color);
+border-radius: 35px;
+border-width: 3px;
+padding: 10px 30px;
+font-size: 20px;
+color:var(--main-text-color);
+}
+.btn-branding:hover {
+    cursor: pointer;
+    border-color: var(--hightlight-color);
+    }
