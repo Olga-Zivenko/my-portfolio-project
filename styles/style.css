@@ -30,16 +30,16 @@ h1 {
     font-size: 96px;
     font-weight: bold;
     color: var(--hightlight-color);}
-h2{
+.hero h2{
     font-size: 24px;
 }
 .btn-branding {
-border-color: var(--hightlight-color);
+background-color: var(--hightlight-color);
 border-radius: 35px;
 border-width: 3px;
 padding: 10px 30px;
 font-size: 20px;
-color:var(--main-text-color);
+color: white;
 }
 .btn-branding:hover {
     cursor: pointer;
