@@ -63,7 +63,7 @@ color:var(--hightlight-color);
     font-size: 64px;
   }
 .decription {
-    padding: 100px 60px;
+    padding: 70px 30px;
 }
 @media (max-width: 960px) {
     h1 {
