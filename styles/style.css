@@ -65,6 +65,24 @@ color:var(--hightlight-color);
 .decription {
     padding: 70px 30px;
 }
+.about-container{
+    text-align: center;
+    padding: 100px 80px;}
+
+.about-hello {
+        font-family: var(--main-font-family);
+        font-size: 36px;
+        font-weight: normal;
+        margin: 0;
+        color: var(--main-text-color);
+    
+    }
+.about-text{
+    padding: 50px;
+}
+.about-text p {
+    text-align: left;
+}
 @media (max-width: 960px) {
     h1 {
       font-size: 60px;
@@ -78,4 +96,14 @@ color:var(--hightlight-color);
         text-align: center;}
         .decription h1{
             font-size: 45px;}
+    .about-container{
+        padding: 20px 20px;
+        text-align: center;
+        }
+        .about-text p {
+            text-align: center;
+        }
+        .about-text{
+            padding: 10px;
+        }
 }
